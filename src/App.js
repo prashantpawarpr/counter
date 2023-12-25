@@ -14,8 +14,10 @@ function App() {
     <div className="App">
       <h1>Counter App</h1>
       <br></br>
-      <Button textSign="+" buttonHandler={plusBtnHandler} />
       <Display displayValue={value} />
+      <br />
+      <br />
+      <Button textSign="+" buttonHandler={plusBtnHandler} />
       <Button textSign="-" buttonHandler={minusBtnHandler} />
     </div>
   );
