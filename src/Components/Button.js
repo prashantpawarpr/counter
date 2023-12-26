@@ -8,7 +8,7 @@ const Button = (props) => {
         width: "100px",
         height: "100px",
         borderRadius: "50%",
-        marginLeft: "5px",
+        marginLeft: "10px",
       }}
       onClick={props.buttonHandler}
     >
